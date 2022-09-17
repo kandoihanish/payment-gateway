@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald:wght@300&family=Pacifico&family=Roboto&family=Ubuntu&display=swap');
+body{
+    background-image:url("https://img.freepik.com/free-photo/begging-bridge-with-person-who-handed-bread_1150-22948.jpg?w=740&t=st=1662539998~exp=1662540598~hmac=c6a3c3db8249758eb4d4c383c87e6ab86598693b5d76bf7d31892c278863b9a0");
+    /* background-color: black; */
+}
+body{
+   
+    background-size:cover;
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.heading{
+    text-align:center; 
+    font-family:"Brush Script MT", cursive; 
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    
+}
+.mssg{
+    margin-left: 100px;
+    margin-bottom:30px;
+     font-family:"Brush Script MT", cursive; 
+    font-size: 200px;
+    color: aliceblue;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 50px;
+    outline: none;
+}
+button{
+    border-radius: 50px;
+}
+.btn{
+    position:relative;
+    left:20%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+button:hover{
+    background-color:rgb(23, 205, 231);
+}
+#smart-button-container{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#smart-button-container input{
+    background-color: aliceblue;
+    transition-duration: 0.9s;
+}
+#smart-button-container input:hover{
+    background-color: #eabf9f;
+}
+@media screen and (max-width: 1000px){
+    
+    .paycontainer{
+
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: top-center;
+    }
+    .heading{
+        padding-top: 600px;
+        text-align:center; 
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        
+    }
+    input{
+        border-radius: 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+
+}
+
+@media screen and (max-width: 770px){
+    
+    .heading{
+        text-align:center; 
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+        
+        color: blue;
+        
+    }
+   
+}
